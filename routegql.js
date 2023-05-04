@@ -3,7 +3,7 @@ const router = express.Router();
 
 // var Schema = require("./db/schema.js");
 
-var graphqlHTTP = require("express-graphql");
+// var graphqlHTTP = require("express-graphql");
 
 
 

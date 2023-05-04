@@ -3,10 +3,15 @@ var http = require("http");
 const express = require("express");
 const app = express();
 
-const publicIp = require("public-ip");
+ const publicIp = require("public-ip");
+
+// import publicIp from 'public-ip';
+
+// import {publicIp, publicIpv4, publicIpv6} from 'public-ip';
+
 
 app.get("/", (req, res) => {
-  res.send("Servidor GraphQL Iniciado");
+  res.send("Servidor GraphQL Iniciado2");
 });
 
 var gql = require("./routegql");
@@ -17,6 +22,11 @@ app.listen(8080, () => {
 
   (async () => {
     console.log(await publicIp.v4());
+   
+  // console.log(await publicIp());
+   
+   
+   
   })();
 });
 

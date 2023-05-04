@@ -13,12 +13,17 @@
     "knex": "^2.4.2",
     "mysql": "^2.18.1",
     "nanoid": "^4.0.2",
-    "public-ip": "^6.0.1"
+    "public-ip": "^4.0.0"
   },
   "scripts": {
     "start": "node index.js"
   },
   "devDependencies": {
     "@types/node": "^17.0.21"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }
