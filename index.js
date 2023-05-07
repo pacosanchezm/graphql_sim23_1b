@@ -11,7 +11,7 @@ const app = express();
 
 
 app.get("/", (req, res) => {
-  res.send("Servidor GraphQL Iniciado2");
+  res.send("Servidor GraphQL Iniciado3");
 });
 
 var gql = require("./routegql");
